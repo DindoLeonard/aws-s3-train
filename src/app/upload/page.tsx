@@ -71,7 +71,7 @@ export default async function UploadPage({
         url = await generateGetSignedUrl(
           "teqhire-store-dev",
           file.key as string,
-          10
+          300
         );
       }
       // If accessing PUBLIC
